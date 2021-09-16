@@ -7,13 +7,13 @@ namespace _05_GigaBank
         static void Main(string[] args)
         {
             ContaCorrente conta = new ContaCorrente();
-            Cliente neto = new Cliente();
+            Cliente client = new Cliente();
 
-            neto.Nome = "José Ferreira Neto";
-            neto.CPF = "982.180.052-12";
-            neto.Profissao = "Atleta";
+            client.Nome = "José Ferreira Neto";
+            client.CPF = "982.180.052-12";
+            client.Profissao = "Atleta";
 
-            conta.Titular = neto;
+            conta.Titular = client;
             conta.Agencia = 1028;
             conta.Numero = 198109;
             conta.Saldo = -10;
